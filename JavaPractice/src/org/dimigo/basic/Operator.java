@@ -12,6 +12,6 @@ public class Operator {
 		System.out.println("사다리꼴 넓이 : " + ladder);
 		System.out.println("평행사변형 넓이 : " + sqaure);
 		System.out.println("\n\n");
-		System.out.println("사다리꼴이 평행사변형 보다 " + (ladder - sqaure) + " 더 큽니다.");
+		System.out.println("사다리꼴이 평행사변형 보다 " + (ladder - sqaure) + " " + "더 큽니다.");
 	}
 }
