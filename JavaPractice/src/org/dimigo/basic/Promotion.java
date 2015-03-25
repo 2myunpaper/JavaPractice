@@ -1,7 +1,5 @@
 package org.dimigo.basic;
 
-import javax.management.monitor.StringMonitor;
-
 public class Promotion {
 	public static void main(String[] args) {
 		
@@ -9,7 +7,6 @@ public class Promotion {
 		int marketNum = 1500;
 		int salary = 1700000;
 		long allSalary = (long)person * (long)marketNum * (long)salary * 12;
-		
 		
 		System.out.println("<< 디미베네 연간 인건비 >>");
 		System.out.printf("월 평균 급여 : %,d원\n", salary);
