@@ -2,7 +2,6 @@ package org.dimigo.basic;
 
 public class Promotion {
 	public static void main(String[] args) {
-		
 		byte person = 3;
 		int marketNum = 1500;
 		int salary = 1700000;
