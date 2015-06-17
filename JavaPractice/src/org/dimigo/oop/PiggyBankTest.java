@@ -27,15 +27,21 @@ public class PiggyBankTest {
 		
 		System.out.println();
 		PiggyBank.putMoney(fam[0], 10000);
-		PiggyBank.putMoney(fam[1], 8000);
-		PiggyBank.putMoney(fam[2], 6000);
-		PiggyBank.putMoney(fam[3], 4000);
+		PiggyBank.putMoney(fam[1], 5000);
+		PiggyBank.putMoney(fam[2], 2000);
+		PiggyBank.putMoney(fam[3], 1000);
 		
 		System.out.println();
 		PiggyBank.printBalance();
 		
 		System.out.println();
-		PiggyBank.putMoney(fam[2], 2000);
+		PiggyBank.putMoney(fam[2], 1000);
+		
+		System.out.println();
+		PiggyBank.printBalance();
+		
+		System.out.println();
+		PiggyBank.stealMoney(fam[3], 2000);
 		
 		System.out.println();
 		PiggyBank.printBalance();
