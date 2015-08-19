@@ -34,4 +34,9 @@ public class Rectangle extends Figure {
 	protected double calcArea() {
 		return width*height;
 	}
+	
+	protected void printCenter() {
+		System.out.print("사각형 ");
+		super.printCenter();
+	}
 }
