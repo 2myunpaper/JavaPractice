@@ -52,7 +52,7 @@ public class MelonChart {
 		for(Music m : list) {
 			i++;
 			System.out.println(i + ". " +m.toString());
-		}
+		} 
 		System.out.println();
 	}
 

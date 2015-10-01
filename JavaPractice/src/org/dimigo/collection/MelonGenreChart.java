@@ -21,7 +21,7 @@ import java.util.Map;
  * @version		: 1.0
  */
 public class MelonGenreChart {
-
+ 
 	public static void main(String[] args) {
 		Map<String, List<Music>> map = new HashMap<String, List<Music>>();
 		
